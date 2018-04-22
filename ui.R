@@ -4,13 +4,13 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       sliderInput("deg_f1",
-                  "degrees of freedom from first sample:",
+                  "degrees of freedom, first sample:",
                   min = 1,
                   max = 20,
                   value = 10,
                   step = 1),
       sliderInput("deg_f2",
-                  "degrees of freedom from second sample:",
+                  "degrees of freedom, second sample:",
                   min = 1,
                   max = 20,
                   value = 10,
